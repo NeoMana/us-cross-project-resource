@@ -8,9 +8,9 @@ overlay.style.cssText = `
     position: fixed;
     top: 0;
     left: 0;
-    width: 80%;
-    height: 60%;
-    background-color: rgba(255, 255, 255, 0.0);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 15, 37, 100.0);
     z-index: 999;
 `;
 
@@ -19,8 +19,8 @@ svgImage.id = 'svgImage';
 svgImage.type = 'image/svg+xml';
 svgImage.src = 'https://cdn.jsdelivr.net/gh/NeoMana/us-cross-project-resource@main/us-merch-intro.svgz';
 svgImage.style.cssText = `
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 60%;
+    max-height: 60%;
     display: none;
     position: absolute;
     top: 50%;
