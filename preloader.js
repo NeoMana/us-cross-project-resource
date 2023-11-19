@@ -17,7 +17,7 @@ overlay.style.cssText = `
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.type = 'image/svg+xml';
-svgImage.src = 'https://cdn.jsdelivr.net/gh/NeoMana/us-cross-project-resource/us-merch-intro.svgz';
+svgImage.src = 'https://cdn.jsdelivr.net/gh/NeoMana/us-cross-project-resource@main/us-merch-intro.svgz';
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
