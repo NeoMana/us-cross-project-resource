@@ -8,15 +8,16 @@ overlay.style.cssText = `
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
+    width: 80%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.0);
     z-index: 999;
 `;
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = 'https://cdn.jsdelivr.net/gh/jasminder/flutter_preloader/preload.svg';
+svgImage.type = 'image/svg+xml';
+svgImage.src = 'https://cdn.jsdelivr.net/gh/NeoMana/us-cross-project-resource/us-merch-intro.svgz';
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
