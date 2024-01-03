@@ -19,8 +19,8 @@ svgImage.id = 'svgImage';
 svgImage.type = 'image/svg+xml';
 svgImage.src = 'https://cdn.jsdelivr.net/gh/NeoMana/us-cross-project-resource@main/us-c-intro.svg';
 svgImage.style.cssText = `
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 90%;
+    max-height: 90%;
     display: none;
     position: absolute;
     top: 50%;
